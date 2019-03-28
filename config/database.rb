@@ -1,6 +1,6 @@
 configure :test do
   set :database, {
-    adapter: 'postegresql',
+    adapter: 'postgresql',
     encoding: 'utf8',
     database: 'chatbot_test',
     pool: 5,
@@ -11,7 +11,7 @@ end
 
 configure :development do
   set :database, {
-    adapter: 'postegresql',
+    adapter: 'postgresql',
     encoding: 'utf8',
     database: 'chatbot_development',
     pool: 5,
